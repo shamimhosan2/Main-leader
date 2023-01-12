@@ -1,6 +1,42 @@
-/*top layout styles*/
+/*font-style*/
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&family=Inter+Tight:ital,wght@1,300&family=Roboto:wght@300;400&display=swap'); 
+/*common style*/
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #E5E5E5;
+}
+
+ /*top layout styles*/
+ main{
+    display: flex;
+    justify-content: center;
+ }
+ .section-title{
+    color:#562EFF;
+    font-size: 24px;
+    
+ }
+
+ 
+ .container{
+    width: 870px;
+    background-color: #FFFFFF;
+    padding: 30px;
+ }
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 
+}
+
+.player{
+    display: flex;
+    
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
 }
