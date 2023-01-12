@@ -14,6 +14,7 @@ body{
  .section-title{
     color:#562EFF;
     font-size: 24px;
+    margin-top: 3px;
     
  }
 
@@ -26,7 +27,7 @@ body{
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-
+    grid-row-gap: 30px;
 }
 
 .player{
@@ -39,4 +40,29 @@ body{
 }
 .player-name{
     margin-left: 16px;
+    font-size: 18px;
+}
+hr{
+border: 1px solid #D1D1D1;
+}
+/*top blog  styles mutiline*/
+.thumbnali img{
+    width: 177px;
+    height: 177px;
+
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-otthor{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-otthor a{
+    text-decoration: none;
+    font-size: 16px;
+    color:#562EFF;
 }
